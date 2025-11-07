@@ -50,7 +50,7 @@ const ParallaxBackground = () => {
             y: mountain2Y,
           }}
         />
-        {/* Mountaine Layer 1 */}
+        {/* Mountain Layer 1 */}
         <motion.div
           className="absolute inset-0 -z-10"
           style={{

@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./sections/navbar";
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Experiences from "./sections/Experiences";
-import Testimonial from "./sections/Testimonial";
-import Contact from "./sections/Contact";
-import Footer from './sections/Footer';
+import Hero from "./sections/hero";
+import About from "./sections/about";
+import Projects from "./sections/projects";
+import Experiences from "./sections/experiences";
+import Testimonial from "./sections/testimonial";
+import Contact from "./sections/contact";
+import Footer from './sections/footer';
 
 const App = () => {
   return (
