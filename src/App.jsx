@@ -1,3 +1,4 @@
+
 import React from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
@@ -12,12 +13,20 @@ const App = () => {
   return (
     <div className="container mx-auto max-w-7xl">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Experiences />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="work">
+        <Projects />
+        <Experiences />
+      </div>
       <Testimonial />
-      <Contact />
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer/>
     </div>
   );
